@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+<a href="https://platform.seatgeek.com/#recommendations"> API Docs Link </a>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
