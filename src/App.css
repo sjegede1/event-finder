@@ -1,7 +1,67 @@
 .App {
   text-align: center;
+  font-family: Roobert, "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+
+nav {
+  border-bottom: solid thin grey;
+}
+
+nav h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.seatgeek-logo {
+  height: 1.1em;
+  margin-inline: 0.5em;
+}
+
+.search-bar-form {
+  margin-block: 1em;
+}
+
+main {
+  display: grid;
+  border: solid thin red;
+  grid-template-columns: 2fr 1fr;;
+}
+
 .results-data {
   margin: 1em;
   border: solid grey;
+}
+
+.results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-card {
+  border: solid thin grey;
+  border-radius: 10px;
+  width: 300px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.result-title {
+  z-index: -1;
+}
+
+.performer-img {
+  border-radius: 5px;
+}
+
+.event-details {
+  font-size: xx-small;
+}
+
+.recommended-aside {
+  border: solid green;
+  margin: 1em;
 }

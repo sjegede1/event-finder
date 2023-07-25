@@ -1,15 +1,19 @@
-import './App.css';
-import ResultsData from './components/ResultsData';
-import SearchBar from './components/SearchBar';
+import "./App.css";
+import Nav from "./components/Nav";
+import RecommendedAside from "./components/RecommendedAside";
+import ResultsData from "./components/ResultsData";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Events App</h1>
+      <Nav />
       <SearchBar />
-      <ResultsData />
 
-
+      <main>
+        <ResultsData />
+        <RecommendedAside />
+      </main>
     </div>
   );
 }
